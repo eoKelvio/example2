@@ -1,0 +1,36 @@
+body {
+    color: white
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(40, 0, 70);
+    padding: 10px;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+header ul a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 0, 70);
+    padding: 10px;
+}
