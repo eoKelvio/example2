@@ -10,10 +10,10 @@ body {
 }
 
 header {
-    background-color: rgb(40, 0, 70);
+    background-color: rgb(15, 14, 14);
     padding: 10px;
     align-items: center;
-    box-shadow: 0px 2px 20px rgb(213, 5, 209);
+    box-shadow: 0px 2px 20px rgb(255, 255, 255);
 }
 
 header li{
@@ -43,12 +43,12 @@ main{
     gap: 30px;
     align-items: center;
     background-image: linear-gradient(to right, 
-    rgba(20,0,30,1.0),
-    rgba(20,0,30,0.6),
-    rgba(40,0,70,0.7),
-    rgba(40,0,70,0.7),
-    rgba(20,0,30,0.6),
-    rgba(20,0,30,1.0));
+    rgb(0, 0, 0),
+    rgba(22, 22, 22, 0.6),
+    rgba(39, 37, 39, 0.7),
+    rgba(39, 37, 39, 0.7),
+    rgba(22,22,22,0.6),
+    rgb(0, 0, 0));
 }
 
 footer {
@@ -56,6 +56,14 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(40, 0, 70);
+    background-color: rgb(15, 14, 14);
     padding: 10px;
+    bottom: 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
 }
