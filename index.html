@@ -1,67 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HTML5</title>
-        <link rel="stylesheet" type="text/css" href="./css/style.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Linguagens</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <main>
-            <section class="Inicio">
-                <h1>Seja bem-vindo!</h1>
-                <p>Aqui você encontrará informações sobre o uso de HTML5 semântico para desenvolvimento web.</p>
-            </section>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
 
-            <section id="Sobre">
-                <h2>Sobre HTML5 semântico</h2>
+<body>
+    <header>
+        <nav>
+            <img id="moon_icon" src="./img/moon_icon.png">
+            <ul>
+                    <li ><a href="#inicio">Inicio</a></li>
+                    <li ><a href="#sobre">Sobre</a></li>
+                    <li ><a href="#linguagens">Linguagens</a></li>
+                    <li ><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Seja bem-vindo!</h1>
+            <p>Aqui você encontrará informações sobre o uso de HTML5 semântico para desenvolvimento web.</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre HTML5 semântico</h2> <br>
+            <div>
                 <p>O HTML5 semântico é uma evolução da linguagem HTML que permite
-                aos desenvolvedores criar estruturas mais significativas e ricas em 
-                conteúdo para seus sites e aplicativos.</p>
-            </section>
+                    aos desenvolvedores criar estruturas mais significativas e ricas em
+                    conteúdo para seus sites e aplicativos.</p>
+                <img id="img_html" src="./img/logo_html5.png">
+            </div>
+        </section>
+           
 
-            <section id="Linguagens">
-                <h2>Outras linguagens associadas</h2>
-                <ul>
-                    <li>HiperText Markup Language - HTML</li>
-                    <li>Cascading Style Sheet - CSS</li>
-                    <li>Javascript - JS</li>
-                </ul>
-            </section>
+        
+        <section id="linguagens">
+            <div class="saas">
+                <div id="texto">
+                    <h2>Outras linguagens associadas</h2><br>
+                    <ul>
+                    <li class="trpr">HiperText Markup Language - HTML</li>
+                    <li class="trpr">Cascading Style Sheet - CSS</li>
+                    <li class="trpr">Javascript - JS</li>
+                    </ul>
+                </div>
+                <div id="imagem">
+                    <img id="moon_logo" src="./img/moon_icon.png">
+                </div>
+            </div>
+        </section>
+        
 
-            <section id="Contato">
-                <h2>Fale conosco</h2> <br>
-                <form>
-                    <label for="nome">Nome:</label>
-                    <input type="text" name="nome" id="nome">
-                    <label for="email">E-mail:</label>
-                    <input type="text" name="email" id="email">
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea type="text" name="mensagem" id="mensagem"></textarea>
-                    <input type="checkbox" name="checkbox" id="checkbox"> 
-                    <label for="email">Desejo receber informações sobre HTML5 por
-                    e-mail.</label>
+        <section id="contato">
+            <h2>Fale conosco</h2> <br>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui.">
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="email" placeholder="Digite seu e-mail aqui.">
+                <label for="mensagem">Mensagem:</label>
+                <textarea type="text" name="mensagem" id="mensagem" placeholder="Digite seu mensagem aqui."></textarea><br>
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="email">Desejo receber informações sobre HTML5 por e-mail.</label>
+                <input type="button" type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
 
-                    <input type="button" type="submit" value="Enviar">
-                </form>
-            </section>
-        </main>
+    <footer>
+        <p>Copyright HTML5 &copy; 2023</p>
+    </footer>
 
-        <footer>
-            <p>Copyright HTML5 &copy; 2023</p>
-        </footer>
+</body>
 
-    </body>
 </html>
